@@ -37,7 +37,7 @@ function init(){
 			resetButton.textContent = "Play Again?";
 			changeColors(clickedColor);
 		} else {
-			this.style.backgroundColor = "#232323";
+			this.style.backgroundColor = "#f2f2f2";
 			resultDisplay.textContent = "Try Again";
 		}
 	});
